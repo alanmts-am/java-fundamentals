@@ -1,4 +1,4 @@
-package com.alanmtsam.exercicio01;
+package com.alanmtsam.exercicios;
 
 public class Exercicio01 {
     public static void main(String[] args) {
