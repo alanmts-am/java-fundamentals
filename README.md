@@ -11,6 +11,8 @@ Projeto de aprendizado prático cobrindo os conceitos fundamentais de Java atrav
 | [03](docs/exercise03.md) | Sistema Bancário | Encapsulamento, getters/setters, controle de acesso |
 | [04](docs/exercise04.md) | Sistema de Produtos | Construtores, sobrecarga, getters imutáveis |
 | [05](docs/exercise05.md) | Interfaces e Polimorfismo | `interface`, `extends`, `@Override`, dispatch em runtime |
+| [06](docs/exercise06.md) | Generics | Classes genéricas, type parameters, type safety em tempo de compilação |
+| [07](docs/exercise07.md) | Collections | `Set`, `HashSet`, unicidade de elementos, `Collection` vs `List` |
 
 ## Estrutura do Projeto
 
@@ -26,13 +28,19 @@ src/
     │   ├── exercise04/
     │   │   ├── Product.java
     │   │   └── Main.java
-    │   └── exercise05/
-    │       ├── ITaxable.java
-    │       ├── Product.java
-    │       ├── ProductImported.java
-    │       └── Main.java
+    │   ├── exercise05/
+    │   │   ├── ITaxable.java
+    │   │   ├── Product.java
+    │   │   ├── ProductImported.java
+    │   │   └── Main.java
+    │   ├── exercise06/
+    │   │   ├── Par.java
+    │   │   ├── Box.java
+    │   │   └── Main.java
+    │   └── exercise07/
+    │       └── Cart.java
 docs/
-└── exercise01.md ... exercise05.md   # Descrições dos exercícios e perguntas de verificação
+└── exercise01.md ... exercise07.md   # Descrições dos exercícios e perguntas de verificação
 ```
 
 ## Requisitos
